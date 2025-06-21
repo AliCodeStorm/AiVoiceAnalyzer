@@ -1,0 +1,58 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+logs
+*.log
+*.log.*
+debug.log
+error.log
+
+
+
+# Vite cache
+.vite/
+
+# Next.js / Vercel (if used)
+.next/
+.vercel/
+
+# Output of `npm pack`
+*.tgz
+
+# dotenv environment variables
+.env
+.env.*
+!.env.example
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+
+# MacOS Finder
+.AppleDouble
+.LSOverride
+
+# Optional log files and coverage
+coverage/
+nyc_output/
+*.lcov
+
+# Optional backup files
+*.bak
+*.tmp
+*.orig
+
+# Optional build system cache
+.cache/
+.eslintcache
+turbo/
